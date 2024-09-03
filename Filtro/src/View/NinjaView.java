@@ -32,6 +32,9 @@ public class NinjaView {
         
         System.out.println("Obtener Ninja:");
         
+        System.out.println("Ingrese ID del ninja: ");
+        String id = scanner.nextLine();
+
          // Validar el nombre del participante
         String nombre = "";
         boolean validName = false;
